@@ -1,0 +1,107 @@
+# vercel部署
+DOMAIN, gpt.haohao.one
+
+# ChatGPT & Claude
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN,gateway.ai.cloudflare.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN,api.github.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,x.ai
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+
+# Apple Intelligence
+DOMAIN-SUFFIX, guzzoni.apple.com
+DOMAIN, apple-relay.cloudflare.com
+DOMAIN-SUFFIX, apple-relay.apple.com
+DOMAIN, configuration.apple.com
+
+# Perplexity
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+
+# Copilot
+DOMAIN, api.githubcopilot.com
+DOMAIN, copilot-proxy.githubusercontent.com
+DOMAIN, copilot.microsoft.com
+DOMAIN, sydney.bing.com
+DOMAIN, www.bing.com
+DOMAIN, in.appcenter.ms
+DOMAIN-SUFFIX, bing.com
+
+# Gemini
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,aida.googleapis.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+
+# Stripe
+DOMAIN, api.stripe.com
+DOMAIN, m.stripe.com
+DOMAIN, q.stripe.com
+DOMAIN, app.link.com
+DOMAIN, api.company-target.com
+DOMAIN-SUFFIX, stripe.com
+DOMAIN-SUFFIX, stripecdn.com
+DOMAIN-SUFFIX, link.com
+DOMAIN-SUFFIX, stripe.network
+DOMAIN-SUFFIX, zi-scripts.com
+DOMAIN-SUFFIX, hcaptcha.com
+
+# Meta AI
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+
+# Mistral AI
+DOMAIN,chat.mistral.ai
+DOMAIN,console.mistral.ai
+DOMAIN-SUFFIX,mistral.ai
+
+# talkatone
+DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,agkn.com
+DOMAIN-SUFFIX,tktn.at
+IP-CIDR,50.117.27.0/24, no-resolve
+IP-CIDR,69.46.75.0/24, no-resolve
+IP-CIDR,205.164.56.0/24, no-resolve
+IP-CIDR,63.251.124.0/24, no-resolve
