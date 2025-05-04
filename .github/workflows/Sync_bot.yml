@@ -86,7 +86,7 @@ jobs:
       - name: 检查文件是否有变更
         id: changes
         run: |
-          git add QuantumultX/ Rewrite/ Rules/ Module/ sgmodule/
+          git add QuantumultX/ Rewrite/ Rules/ Module/ Module/
           if git diff --cached --quiet; then
             echo "未检测到文件变更"
             echo "changed=false" >> $GITHUB_OUTPUT
