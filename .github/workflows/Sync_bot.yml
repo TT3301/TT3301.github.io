@@ -1,0 +1,105 @@
+name: 自动抓取Sync机器人
+
+on:
+  schedule:
+    # 每天 UTC 时间3点0分运行一次（通常是北京时间11点）
+    - cron: '0 3 * * 6'
+  workflow_dispatch:
+    # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 设置 Node.js 20 环境
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: 检出代码仓库
+        uses: actions/checkout@v3
+
+      - name: QX解析器 & Task脚本
+        run: |
+          curl -o general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+          curl -o task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js
+          curl -o task/Sub-info.js https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js
+          curl -o task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js
+
+      - name: 同步 Rewrite 重写
+        run: |
+          curl -o rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
+          curl -o rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js
+          curl -o rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
+          curl -o rewrite/Weibo.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf
+          curl -o rewrite/dlm.js https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
+          curl -o rewrite/BilibiliDailyBonus.js https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
+          curl -o rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
+          curl -o rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+          curl -o rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js
+
+      - name: 同步 Rule 规则
+        run: |
+          curl -o rule/PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
+          curl -o rule/Sukka_ai.conf https://ruleset.skk.moe/List/non_ip/ai.conf
+          curl -o rule/Sukka_icloud_private_relay.conf https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf
+
+      - name: 同步 sgmodule 文件
+        run: |
+          # 下载各个 sgmodule 文件到 sgmodule 目录，针对特定文件设置自定义 User-Agent
+          # 使用 -L 参数跟随重定向，确保下载最新发布版本的文件
+          curl -L -H "User-Agent: Surge iOS/3367" -o sgmodule/iRingo.Location.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.sgmodule
+          curl -L -H "User-Agent: Surge iOS/3367" -o sgmodule/iRingo.WeatherKit.sgmodule https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
+          curl -L -H "User-Agent: Surge iOS/3367" -o sgmodule/iRingo.Maps.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.sgmodule
+          curl -o sgmodule/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule
+          curl -o sgmodule/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
+          curl -o sgmodule/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule
+          curl -o sgmodule/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/JD_Helper.sgmodule
+          curl -o sgmodule/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule
+          curl -o sgmodule/WeChat110.sgmodule https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule
+          
+          # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换或插入参数内容
+          for file in sgmodule/*.sgmodule; do
+            # 检查文件是否存在且不为空，避免处理空文件
+            if [ -s "$file" ]; then
+              echo "处理文件: $file"
+              # 检查文件是否包含 #!category 参数
+              if grep -q "^#!category" "$file"; then
+                # 如果存在，则替换现有内容
+                LC_ALL=C sed -i '/^#!category[ =]/ s/.*/#!category=🌐 Remote_Module/' "$file"
+              else
+                # 如果不存在，则在文件第一行插入 #!category 参数
+                LC_ALL=C sed -i '1i #!category=🌐 Remote_Module' "$file"
+              fi
+            else
+              echo "文件 $file 为空或不存在，跳过处理"
+            fi
+          done
+
+      - name:  QX HTTP 后端文件
+        run: curl -o http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js
+
+      - name: 检查文件是否有变更
+        id: changes
+        run: |
+          git add general/ task/ rewrite/ rule/ sgmodule/ http_backend/
+          if git diff --cached --quiet; then
+            echo "未检测到文件变更"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "检测到文件变更"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 提交并推送变更
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -m '同步机器人: Update Finish【👌】'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
