@@ -31,6 +31,7 @@ jobs:
 
       - name: 同步 Rewrite 重写
         run: |
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs_QX.conf https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
           curl -o Rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js || echo "Error downloading 10099Get_Cookie.js"
           curl -o Rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js || echo "Error downloading 10099.js"
           curl -o Rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js || echo "Error downloading pornhub.js"
@@ -55,6 +56,7 @@ jobs:
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.WeatherKit.sgmodule https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule || echo "Error downloading iRingo.WeatherKit.sgmodule"
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Maps.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.sgmodule || echo "Error downloading iRingo.Maps.sgmodule"
           curl -o Module/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule || echo "Error downloading Block_HTTPDNS.sgmodule"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Module/boxjs_surge.sgmodule https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule || echo "Error downloading boxjs_surge.sgmodule"
           curl -o Module/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule || echo "Error downloading App解锁合集.sgmodule"
           curl -o Module/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule || echo "Error downloading 10010_ad.sgmodule"
           curl -o Module/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/JD_Helper.sgmodule || echo "Error downloading JD_Helper.sgmodule"
