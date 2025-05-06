@@ -32,6 +32,7 @@ jobs:
       - name: 同步 Rewrite 重写
         run: |
           curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs_QX.conf https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js || echo "Error downloading boxjs.js"
           curl -o Rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js || echo "Error downloading 10099Get_Cookie.js"
           curl -o Rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js || echo "Error downloading 10099.js"
           curl -o Rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js || echo "Error downloading pornhub.js"
