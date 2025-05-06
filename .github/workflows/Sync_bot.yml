@@ -2,7 +2,7 @@ name: 自动抓取Sync机器人
 
 on:
   schedule:
-    # 每天 UTC 时间 3 点 0 分运行一次（通常是北京时间 11 点）
+    # 每天 UTC 时间 3 点 0 分运行一次
     - cron: '0 3 * * *'
   workflow_dispatch:
     # 手动触发
