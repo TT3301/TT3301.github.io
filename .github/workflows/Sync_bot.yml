@@ -85,10 +85,15 @@ jobs:
         run: |
           curl -o QuantumultX/http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js || echo "Error downloading backend-icloud-to-http.js"
 
+      - name: GEOIP 数据库
+        run: |
+          curl -o Geo_data/Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+          curl -o Geo_data/geoip.dat https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat
+
       - name: 检查文件是否有变更
         id: changes
         run: |
-          git add QuantumultX/ Rewrite/ Rules/ Module/ Module/
+          git add QuantumultX/ Rewrite/ Rules/ Module/ Module/ Geo_data/
           if git diff --cached --quiet; then
             echo "未检测到文件变更"
             echo "changed=false" >> $GITHUB_OUTPUT
