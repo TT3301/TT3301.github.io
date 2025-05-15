@@ -59,7 +59,7 @@ jobs:
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/boxjs_surge.sgmodule https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule || echo "Error downloading boxjs_surge.sgmodule"
           curl -o Module/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule || echo "Error downloading App解锁合集.sgmodule"
           curl -o Module/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule || echo "Error downloading 10010_ad.sgmodule"
-          curl -o Module/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/JD_Helper.sgmodule || echo "Error downloading JD_Helper.sgmodule"
+          curl -o Module/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/jd_price2.sgmodule || echo "Error downloading JD_Helper.sgmodule"
           curl -o Module/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule || echo "Error downloading YouTube_Lite.sgmodule"
           curl -o Module/WeChat110.sgmodule https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule || echo "Error downloading WeChat110.sgmodule"
           
