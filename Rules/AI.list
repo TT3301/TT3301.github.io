@@ -43,6 +43,7 @@ DOMAIN-SUFFIX, guzzoni.apple.com
 DOMAIN, apple-relay.cloudflare.com
 DOMAIN-SUFFIX, apple-relay.apple.com
 DOMAIN, configuration.apple.com
+DOMAIN, p223-contacts.icloud.com // 美区通讯录
 
 # Perplexity
 DOMAIN-SUFFIX,pplx.ai
