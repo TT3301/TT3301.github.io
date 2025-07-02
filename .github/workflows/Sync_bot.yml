@@ -44,7 +44,7 @@ jobs:
 
       - name: 同步 Rule 规则
         run: |
-          curl -o Rules/PayPal.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list || echo "Error downloading PayPal.list"
+          curl -o Rules/Apple.list https://kelee.one/Tool/Loon/Lsr/AppStore.lsr || echo "Error downloading Apple.list"
           curl -o Rules/Sukka_ai.conf https://ruleset.skk.moe/List/non_ip/ai.conf || echo "Error downloading Sukka_ai.conf"
           curl -o Rules/Sukka_icloud_private_relay.conf https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf || echo "Error downloading Sukka_icloud_private_relay.conf"
 
