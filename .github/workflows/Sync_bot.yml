@@ -44,7 +44,7 @@ jobs:
 
       - name: 同步 Rule 规则
         run: |
-          curl -L -H "User-Agent: Surge iOS/3367" -o Rules/Apple.list https://rule.kelee.one/Loon/Apple.lsr || echo "Error downloading Apple.list"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rules/Apple.list https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/Apple/Apple.list || echo "Error downloading Apple.list"
           curl -o Rules/Sukka_ai.conf https://ruleset.skk.moe/List/non_ip/ai.conf || echo "Error downloading Sukka_ai.conf"
           curl -o Rules/Sukka_icloud_private_relay.conf https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf || echo "Error downloading Sukka_icloud_private_relay.conf"
 
