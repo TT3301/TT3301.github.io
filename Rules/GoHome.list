@@ -2,8 +2,9 @@
 IP-CIDR, 192.168.88.0/24, no-resolve
 
 # 路由器
-IP-CIDR, 192.168.8.0/24, no-resolve
+IP-CIDR, 192.168.66.0/24, no-resolve
 IP-CIDR, 192.168.77.0/24, no-resolve
+IP-CIDR, 192.168.8.0/24, no-resolve
 
 # Tailscale
 IP-CIDR, 100.64.0.0/10, no-resolve
