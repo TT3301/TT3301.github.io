@@ -24,45 +24,46 @@ jobs:
 
       - name: QX解析器 & Task脚本
         run: |
-          curl -o QuantumultX/general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js || echo "Error downloading resource-parser.js"
-          curl -o QuantumultX/Task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js || echo "Error downloading check.js"
-          curl -o QuantumultX/Task/Sub-info.js https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js || echo "Error downloading Sub-info.js"
-          curl -o QuantumultX/Task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js || echo "Error downloading net-lsp-x.js"
+          curl -o QuantumultX/general/resource-parser.js https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js || echo "resource-parser.js下载失败"
+          curl -o QuantumultX/Task/check.js https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Streaming/check.js || echo "check.js下载失败"
+          curl -o QuantumultX/Task/Sub-info.js https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js || echo "Sub-info.js下载失败"
+          curl -o QuantumultX/Task/net-lsp-x.js https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js || echo "net-lsp-x.js下载失败"
 
       - name: 同步 Rewrite 重写
         run: |
           curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs_QX.conf https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
-          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js || echo "Error downloading boxjs.js"
-          curl -o Rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js || echo "Error downloading 10099Get_Cookie.js"
-          curl -o Rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js || echo "Error downloading 10099.js"
-          curl -o Rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js || echo "Error downloading pornhub.js"
-          curl -o Rewrite/Weibo.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf || echo "Error downloading Weibo.conf"
-          curl -o Rewrite/BilibiliDailyBonus.js https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js || echo "Error downloading BilibiliDailyBonus.js"
-          curl -o Rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js || echo "Error downloading jijianhuilv.js"
-          curl -o Rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js || echo "Error downloading WeChat110.js"
-          curl -o Rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js || echo "Error downloading sms-forward.js"
-          curl -L -H "User-Agent: Loon" -o Rewrite/Amap_remove_ads.js https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js || echo "下载失败Amap_remove_ads.js"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js || echo "boxjs.js下载失败"
+          curl -o Rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js || echo "10099Get_Cookie.js下载失败"
+          curl -o Rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js || echo "10099.js下载失败"
+          curl -o Rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js || echo "pornhub.js下载失败"
+          curl -o Rewrite/Weibo.conf https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf || echo "Weibo.conf下载失败"
+          curl -o Rewrite/BilibiliDailyBonus.js https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js || echo "BilibiliDailyBonus.js下载失败"
+          curl -o Rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js || echo "jijianhuilv.js下载失败"
+          curl -o Rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js || echo "WeChat110.js下载失败"
+          curl -o Rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js || echo "sms-forward.js下载失败"
+          curl -L -H "User-Agent: Loon" -o Rewrite/Amap_remove_ads.js https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js || echo "Amap_remove_ads.js下载失败"
+          curl -L -H "User-Agent: Loon" -o Rewrite/Umetrip_remove_ads.js https://kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js || echo "Umetrip_remove_ads.js下载失败"
 
       - name: 同步 Rule 规则
         run: |
-          curl -L -H "User-Agent: Surge iOS/3367" -o Rules/Apple.list https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/Apple/Apple.list || echo "Error downloading Apple.list"
-          curl -o Rules/Sukka_ai.conf https://ruleset.skk.moe/List/non_ip/ai.conf || echo "Error downloading Sukka_ai.conf"
-          curl -o Rules/Sukka_icloud_private_relay.conf https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf || echo "Error downloading Sukka_icloud_private_relay.conf"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rules/Apple.list https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/Apple/Apple.list || echo "Apple.list下载失败"
+          curl -o Rules/Sukka_ai.conf https://ruleset.skk.moe/List/non_ip/ai.conf || echo "Sukka_ai.conf下载失败"
+          curl -o Rules/Sukka_icloud_private_relay.conf https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf || echo "Sukka_icloud_private_relay.conf下载失败"
 
       - name: 同步 sgmodule 文件
         run: |
           # 下载各个 sgmodule 文件到 sgmodule 目录，针对特定文件设置自定义 User-Agent
           # 使用 -L 参数跟随重定向，确保下载最新发布版本的文件
-          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Location.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.sgmodule || echo "Error downloading iRingo.Location.sgmodule"
-          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.WeatherKit.sgmodule https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule || echo "Error downloading iRingo.WeatherKit.sgmodule"
-          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Maps.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.sgmodule || echo "Error downloading iRingo.Maps.sgmodule"
-          curl -o Module/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule || echo "Error downloading Block_HTTPDNS.sgmodule"
-          curl -L -H "User-Agent: Surge iOS/3367" -o Module/boxjs_surge.sgmodule https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule || echo "Error downloading boxjs_surge.sgmodule"
-          curl -o Module/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule || echo "Error downloading App解锁合集.sgmodule"
-          curl -o Module/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule || echo "Error downloading 10010_ad.sgmodule"
-          curl -o Module/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/jd_price2.sgmodule || echo "Error downloading JD_Helper.sgmodule"
-          curl -o Module/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule || echo "Error downloading YouTube_Lite.sgmodule"
-          curl -o Module/WeChat110.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Beta/%E5%BE%AE%E4%BF%A1%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5%E8%A7%A3%E9%94%81.beta.sgmodule || echo "Error downloading WeChat110.sgmodule"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Location.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.sgmodule || echo "iRingo.Location.sgmodule下载失败"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.WeatherKit.sgmodule https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule || echo "iRingo.WeatherKit.sgmodule下载失败"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Maps.sgmodule https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.sgmodule || echo "iRingo.Maps.sgmodule下载失败"
+          curl -o Module/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule || echo "Block_HTTPDNS.sgmodule下载失败"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Module/boxjs_surge.sgmodule https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule || echo "boxjs_surge.sgmodule下载失败"
+          curl -o Module/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule || echo "App解锁合集.sgmodule下载失败"
+          curl -o Module/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule || echo "10010_ad.sgmodule下载失败"
+          curl -o Module/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/jd_price2.sgmodule || echo "JD_Helper.sgmodule下载失败"
+          curl -o Module/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule || echo "YouTube_Lite.sgmodule下载失败"
+          curl -o Module/WeChat110.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Beta/%E5%BE%AE%E4%BF%A1%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5%E8%A7%A3%E9%94%81.beta.sgmodule || echo "WeChat110.sgmodule下载失败"
           
           # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换或插入参数内容
           for file in Module/*.sgmodule; do
@@ -84,7 +85,7 @@ jobs:
 
       - name: QX HTTP 后端文件
         run: |
-          curl -o QuantumultX/http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js || echo "Error downloading backend-icloud-to-http.js"
+          curl -o QuantumultX/http_backend/backend-icloud-to-http.js https://raw.githubusercontent.com/crossutility/Quantumult-X/master/backend-icloud-to-http.js || echo "backend-icloud-to-http.js下载失败"
 
       - name: GEOIP 数据库
         run: |
