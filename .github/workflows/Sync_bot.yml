@@ -41,6 +41,7 @@ jobs:
           curl -o Rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js || echo "Error downloading jijianhuilv.js"
           curl -o Rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js || echo "Error downloading WeChat110.js"
           curl -o Rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js || echo "Error downloading sms-forward.js"
+          curl -L -H "User-Agent: Loon" -o Rewrite/Amap_remove_ads.js https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js || echo "下载失败Amap_remove_ads.js"
 
       - name: 同步 Rule 规则
         run: |
