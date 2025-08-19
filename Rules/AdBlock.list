@@ -2,7 +2,7 @@
 IP-CIDR,0.0.0.0/32,REJECT,no-resolve
 
 # rustdesk专业版请求
-# DEST-PORT,21114,REJECT,pre-matching
+DEST-PORT,21114,REJECT,pre-matching
 
 # 微信热更新
 # DOMAIN, dl.wechat.com, REJECT
