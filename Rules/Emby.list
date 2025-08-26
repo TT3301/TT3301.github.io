@@ -1,9 +1,11 @@
 # Emby•墨白服
 DOMAIN-SUFFIX,mobaiemby.site
+
 # Emby•纸片人
-DOMAIN-SUFFIX,029902.xyz
-DOMAIN-SUFFIX,embyplus.org
-DOMAIN-SUFFIX,cn2gias.uk
+# DOMAIN-SUFFIX,029902.xyz
+# DOMAIN-SUFFIX,embyplus.org
+# DOMAIN-SUFFIX,cn2gias.uk
+
 # 下载 & 视频
 DOMAIN,speech.platform.bing.com
 DOMAIN-SUFFIX,pornhub.com
