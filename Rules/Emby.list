@@ -1,6 +1,9 @@
 # Emby•墨白服
 DOMAIN-SUFFIX,mobaiemby.site
 
+# Emby•SNTP
+DOMAIN-SUFFIX,cn2gias.uk
+
 # Emby•纸片人
 # DOMAIN-SUFFIX,029902.xyz
 # DOMAIN-SUFFIX,embyplus.org
