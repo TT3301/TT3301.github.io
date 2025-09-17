@@ -61,6 +61,7 @@ jobs:
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/boxjs_surge.sgmodule https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule || echo "boxjs_surge.sgmodule下载失败"
           curl -o Module/App解锁合集.sgmodule https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule || echo "App解锁合集.sgmodule下载失败"
           curl -o Module/10010_ad.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/main/Surge/Official/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E5%8E%BB%E5%B9%BF%E5%91%8A.sgmodule || echo "10010_ad.sgmodule下载失败"
+          curl -o Module/10010.sgmodule https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.sgmodule || echo "10010.sgmodule下载失败"
           curl -o Module/JD_Helper.sgmodule https://raw.githubusercontent.com/githubdulong/Script/master/Surge/jd_price2.sgmodule || echo "JD_Helper.sgmodule下载失败"
           curl -o Module/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule || echo "YouTube_Lite.sgmodule下载失败"
           curl -o Module/WeChat110.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Beta/%E5%BE%AE%E4%BF%A1%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5%E8%A7%A3%E9%94%81.beta.sgmodule || echo "WeChat110.sgmodule下载失败"
