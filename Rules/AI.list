@@ -36,9 +36,9 @@ DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 
 # Apple Intelligence
-DOMAIN-SUFFIX, guzzoni.apple.com
-DOMAIN, apple-relay.cloudflare.com
-DOMAIN, apple-relay.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
 
 # Perplexity
 DOMAIN-SUFFIX,pplx.ai
