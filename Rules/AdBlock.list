@@ -154,19 +154,6 @@ DOMAIN-SUFFIX,ugdtimg.com,REJECT
 IP-CIDR,47.110.187.87/32,REJECT,no-resolve
 # 分秒网络
 DOMAIN-SUFFIX,openinstall.io,REJECT
-# 个推
-DOMAIN,b-gtc.getui.net,REJECT
-DOMAIN,c-gtc.getui.net,REJECT
-DOMAIN,c-hzgt2.getui.com,REJECT
-DOMAIN,c-ido.getui.net,REJECT
-DOMAIN,c-gtc.getui.net,REJECT
-DOMAIN,dnms.getui.com,REJECT
-DOMAIN,ido.getui.net,REJECT
-DOMAIN,sdk-conf.getui.com,REJECT
-DOMAIN,sdk-open-phone.getui.com,REJECT
-DOMAIN-SUFFIX,mobileservice.cn,REJECT
-DOMAIN-SUFFIX,getui.com,REJECT
-DOMAIN-SUFFIX,igexin.com,REJECT
 # 友盟
 DOMAIN,cnlogs.umeng.com,REJECT
 DOMAIN,ucc.umeng.com,REJECT
