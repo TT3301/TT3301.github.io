@@ -12,7 +12,6 @@ IP-CIDR, 100.64.0.0/10, no-resolve
 # ZeroTier
 IP-CIDR, 192.168.168.0/24, no-resolve
 
-
 # 小红书 & 抖音
 OR,((PROCESS-NAME,*discover*), (PROCESS-NAME,*Aweme*)) #!MACOS-ONLY
 
