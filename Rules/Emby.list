@@ -1,6 +1,5 @@
 # Plex
 DOMAIN,v4.plex.tv
-DST-PORT,32400
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
 
