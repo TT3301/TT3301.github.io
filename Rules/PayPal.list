@@ -6,3 +6,11 @@ DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,joinhoney.com
 DOMAIN-KEYWORD,paypal
+
+# == WeChat规则
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+USER-AGENT,miniprogram
+PROCESS-NAME,WeChat #!MACOS-ONLY
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wx.qq.com
