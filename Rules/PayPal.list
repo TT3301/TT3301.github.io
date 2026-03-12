@@ -14,6 +14,7 @@ USER-AGENT,miniprogram
 PROCESS-NAME,WeChat* #!MACOS-ONLY
 DOMAIN,mp.weixin.qq.com
 DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatpay.cn
 DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,wx.qq.com
 DOMAIN-SUFFIX,wxqcloud.qq.com.cn
