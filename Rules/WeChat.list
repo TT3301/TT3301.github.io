@@ -6,6 +6,8 @@ USER-AGENT,miniprogram
 DOMAIN,mp.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,wechatpay.cn
 DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,wx.qq.com
