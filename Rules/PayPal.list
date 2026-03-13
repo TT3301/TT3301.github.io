@@ -8,10 +8,10 @@ DOMAIN-SUFFIX,joinhoney.com
 DOMAIN-KEYWORD,paypal
 
 # == WeChat规则
+PROCESS-NAME,WeChat* #!MACOS-ONLY
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 USER-AGENT,miniprogram
-PROCESS-NAME,WeChat* #!MACOS-ONLY
 DOMAIN,mp.weixin.qq.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatpay.cn
