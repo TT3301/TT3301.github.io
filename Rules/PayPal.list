@@ -13,6 +13,7 @@ USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 USER-AGENT,miniprogram
 DOMAIN,mp.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatpay.cn
 DOMAIN-SUFFIX,wechatpay.com
