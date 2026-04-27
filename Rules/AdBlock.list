@@ -8,8 +8,8 @@ DEST-PORT,21114,REJECT
 DOMAIN,msmp.abchina.com.cn,REJECT
 
 # 微信DNS
-DOMAIN,dns.weixin.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching,pre-matching
+DOMAIN,dns.weixin.qq.com,REJECT,extended-matching
+DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching
 
 # 微信热更新
 # DOMAIN, dl.wechat.com, REJECT
