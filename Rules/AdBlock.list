@@ -7,17 +7,6 @@ DEST-PORT,21114,REJECT
 # 农行VPN检测
 DOMAIN,msmp.abchina.com.cn,REJECT
 
-# 微信DNS
-DOMAIN,dns.weixin.qq.com,REJECT,extended-matching
-DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching
-IP-CIDR,42.81.232.18/32,REJECT,no-resolve
-IP-CIDR,42.187.182.106/32,REJECT,no-resolve
-IP-CIDR,42.187.182.123/32,REJECT,no-resolve
-IP-CIDR,42.187.184.154/32,REJECT,no-resolve
-IP-CIDR,123.151.54.50/32,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,REJECT,no-resolve
-IP-CIDR6,240e:928:1400:10::25/128,REJECT,no-resolve
-
 # 微信热更新
 # DOMAIN, dl.wechat.com, REJECT
 # DOMAIN, dldir1.qq.com, REJECT
