@@ -167,6 +167,7 @@ DOMAIN,log.umtrack.com,REJECT
 DOMAIN,log.umsns.com,REJECT
 DOMAIN,errlog.umeng.com,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
 # FUNLINK - 北京泛连科技
 DOMAIN,adtracker.adfunlink.com,REJECT
 # 天目 - 广告服务商
