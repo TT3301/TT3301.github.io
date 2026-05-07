@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,110.cqqgsafe.com,REJECT
 
 # 联通
 DOMAIN-SUFFIX, m1.ad.10010.com,REJECT
+
 # 字节跳动广告
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,mon.zijieapi.com,REJECT
@@ -165,6 +166,7 @@ DOMAIN,plbslog.umeng.com,REJECT
 DOMAIN,log.umtrack.com,REJECT
 DOMAIN,log.umsns.com,REJECT
 DOMAIN,errlog.umeng.com,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
 # FUNLINK - 北京泛连科技
 DOMAIN,adtracker.adfunlink.com,REJECT
 # 天目 - 广告服务商
