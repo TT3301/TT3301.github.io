@@ -156,18 +156,8 @@ IP-CIDR,47.110.187.87/32,REJECT,no-resolve
 # 分秒网络
 DOMAIN-SUFFIX,openinstall.io,REJECT
 # 友盟
-DOMAIN,cnlogs.umeng.com,REJECT
-DOMAIN,ucc.umeng.com,REJECT
-DOMAIN,ulogs.umengcloud.com,REJECT
-DOMAIN,ulogs.umeng.com,REJECT
-DOMAIN,deeplink.umeng.com,REJECT
-DOMAIN,aspect-upush.umeng.com,REJECT
-DOMAIN,plbslog.umeng.com,REJECT
-DOMAIN,log.umtrack.com,REJECT
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,errlog.umeng.com,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
-DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-WILDCARD,*.umeng.*,REJECT
+DOMAIN-WILDCARD,*.umengcloud.*,REJECT
 # FUNLINK - 北京泛连科技
 DOMAIN,adtracker.adfunlink.com,REJECT
 # 天目 - 广告服务商
