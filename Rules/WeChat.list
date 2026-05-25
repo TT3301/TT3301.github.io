@@ -1,5 +1,5 @@
 # == WeChat规则
-PROCESS-NAME,/Applications/WeChat.app #!MACOS-ONLY
+PROCESS-NAME,/Applications/WeChat.app/ #!MACOS-ONLY
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 USER-AGENT,miniprogram
