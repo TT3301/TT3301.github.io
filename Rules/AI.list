@@ -59,15 +59,15 @@ DOMAIN, in.appcenter.ms
 DOMAIN-SUFFIX, bing.com
 
 # Gemini
-DOMAIN,ai.google.dev
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN,jules.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN,generativeai.google
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
+# DOMAIN,ai.google.dev
+# DOMAIN-SUFFIX,deepmind.google
+# DOMAIN-SUFFIX,gemini.google
+# DOMAIN-SUFFIX,gemini.google.com
+# DOMAIN,jules.google.com
+# DOMAIN-SUFFIX,bard.google.com
+# DOMAIN,generativeai.google
+# DOMAIN,generativelanguage.googleapis.com
+# DOMAIN,proactivebackend-pa.googleapis.com
 
 # Stripe
 DOMAIN, api.stripe.com
