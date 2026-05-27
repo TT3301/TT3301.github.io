@@ -8,10 +8,10 @@ DOMAIN,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,weixinbridge.com
-DOMAIN-WILDCARD,*.wechatpay.*
 DOMAIN-SUFFIX,wx.qq.com
 DOMAIN-SUFFIX,wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qq.com
+DOMAIN-WILDCARD,*.wechatpay.*
 DOMAIN-KEYWORD,tc.qq.com
 IP-ASN,132203
