@@ -5,6 +5,7 @@ USER-AGENT,WeChat*
 USER-AGENT,miniprogram*
 # IP-ASN,132203
 DOMAIN,mp.weixin.qq.com
+DOMAIN,wx.qlogo.cn
 DOMAIN,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,servicewechat.com
