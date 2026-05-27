@@ -3,7 +3,7 @@ PROCESS-NAME,/Applications/WeChat.app/ #!MACOS-ONLY
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 USER-AGENT,miniprogram*
-IP-ASN,132203
+# IP-ASN,132203
 DOMAIN,mp.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,wechat.com
