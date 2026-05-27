@@ -15,3 +15,4 @@ DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-WILDCARD,*.wechatpay.*
 DOMAIN-KEYWORD,qq.com
+DOMAIN-KEYWORD,tencent
