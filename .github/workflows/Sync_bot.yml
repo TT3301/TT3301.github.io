@@ -66,6 +66,7 @@ jobs:
           curl -o Module/YouTube_Lite.sgmodule https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Lite.sgmodule || echo "YouTube_Lite.sgmodule下载失败"
           curl -o Module/WeChat110.sgmodule https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Beta/%E5%BE%AE%E4%BF%A1%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5%E8%A7%A3%E9%94%81.beta.sgmodule || echo "WeChat110.sgmodule下载失败"
           curl -o Module/keleePlugin.sgmodule https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pluginhub.sgmodule || echo "keleePlugin.sgmodule下载失败"
+          curl -o Module/wloc.sgmodule https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.sgmodule || echo "wloc.sgmodule下载失败"
           
           # 遍历 sgmodule 目录下的所有 .sgmodule 文件，批量替换或插入参数内容
           for file in Module/*.sgmodule; do
