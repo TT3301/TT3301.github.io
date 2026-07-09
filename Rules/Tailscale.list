@@ -5,3 +5,4 @@ IP-CIDR,100.64.0.0/10, no-resolve
 # 组网设备网段
 IP-CIDR, 192.168.98.0/24, no-resolve
 IP-CIDR, 192.168.99.0/24, no-resolve
+OR,((DOMAIN,yop.ydl.com), (DOMAIN,zeppelin.ydl.com), (DOMAIN,hp.yidianling.com))
