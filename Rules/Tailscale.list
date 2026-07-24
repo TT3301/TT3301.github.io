@@ -1,5 +1,5 @@
 # Tailscale规则
-DOMAIN-SUFFIX,ts.net
+DOMAIN-SUFFIX,tail3a36b5.ts.net
 IP-CIDR,100.64.0.0/10, no-resolve
 
 # TS组网设备网段
