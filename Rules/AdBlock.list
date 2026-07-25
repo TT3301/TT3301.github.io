@@ -2,8 +2,8 @@
 IP-CIDR,0.0.0.0/32,REJECT,no-resolve
 
 # QQ的p2p
-DOMAIN,musicstun.p2p.qq.com
-DOMAIN,musicpunch.p2p.qq.com
+DOMAIN,musicstun.p2p.qq.com, REJECT
+DOMAIN,musicpunch.p2p.qq.com, REJECT
 
 # rustdesk专业版请求
 DEST-PORT,21114,REJECT
