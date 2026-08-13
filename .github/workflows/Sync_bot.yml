@@ -56,7 +56,7 @@ jobs:
           # 使用 -L 参数跟随重定向，确保下载最新发布版本的文件
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Location.sgmodule https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.sgmodule || echo "iRingo.Location.sgmodule下载失败"
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.WeatherKit.sgmodule https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule || echo "iRingo.WeatherKit.sgmodule下载失败"
-          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.WeatherKit.sgmodule https://raw.githubusercontent.com/NSRingo/WeatherKit/main/modules/iRingo.WeatherKit.Rewrite.sgmodule || echo "iRingo.WeatherKit.sgmodule下载失败"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.WeatherKit.Rewrite.sgmodule https://raw.githubusercontent.com/NSRingo/WeatherKit/main/modules/iRingo.WeatherKit.Rewrite.sgmodule || echo "iRingo.WeatherKit.Rewrite.sgmodule下载失败"
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/iRingo.Maps.sgmodule https://github.com/NSRingo/Maps/releases/latest/download/iRingo.Maps.sgmodule || echo "iRingo.Maps.sgmodule下载失败"
           curl -o Module/Block_HTTPDNS.sgmodule https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/sgmodule/HTTPDNS.Block.sgmodule || echo "Block_HTTPDNS.sgmodule下载失败"
           curl -L -H "User-Agent: Surge iOS/3367" -o Module/boxjs_surge.sgmodule https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule || echo "boxjs_surge.sgmodule下载失败"
