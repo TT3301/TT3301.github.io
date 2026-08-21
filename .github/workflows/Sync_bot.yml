@@ -41,7 +41,7 @@ jobs:
           curl -o Rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js || echo "jijianhuilv.js下载失败"
           curl -o Rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js || echo "WeChat110.js下载失败"
           curl -o Rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js || echo "sms-forward.js下载失败"
-          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/sms-forward.js https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet || echo "iRingo.WeatherKit.snippet下载失败"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/iRingo.WeatherKit.snippet https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet || echo "iRingo.WeatherKit.snippet下载失败"
           curl -x "${{ secrets.SOCKS_PROXY }}" -L -H "User-Agent: Loon/886 CFNetwork/3826.600.41 Darwin/24.6.0" -o Rewrite/Amap_remove_ads.js https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js || echo "Amap_remove_ads.js下载失败"
           curl -v -L -H "User-Agent: Loon/886 CFNetwork/3826.600.41 Darwin/24.6.0" -o Rewrite/Umetrip_remove_ads.js https://kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js || echo "Umetrip_remove_ads.js下载失败"
 
