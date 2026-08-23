@@ -33,6 +33,7 @@ jobs:
         run: |
           curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs_QX.conf https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
           curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/boxjs.js https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js || echo "boxjs.js下载失败"
+          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/iRingo.WeatherKit.snippet https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet || echo "iRingo.WeatherKit.snippet下载失败"
           curl -o Rewrite/10099Get_Cookie.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js || echo "10099Get_Cookie.js下载失败"
           curl -o Rewrite/10099.js https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js || echo "10099.js下载失败"
           curl -o Rewrite/pornhub.js https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js || echo "pornhub.js下载失败"
@@ -41,7 +42,8 @@ jobs:
           curl -o Rewrite/jijianhuilv.js https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js || echo "jijianhuilv.js下载失败"
           curl -o Rewrite/WeChat110.js https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js || echo "WeChat110.js下载失败"
           curl -o Rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js || echo "sms-forward.js下载失败"
-          curl -L -H "User-Agent: Surge iOS/3367" -o Rewrite/iRingo.WeatherKit.snippet https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet || echo "iRingo.WeatherKit.snippet下载失败"
+          curl -o Rewrite/wloc.js https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc.js || echo "wloc.js下载失败"
+          curl -o Rewrite/wloc-settings.js https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc-settings.js || echo "wloc-settings.js下载失败"
           curl -x "${{ secrets.SOCKS_PROXY }}" -L -H "User-Agent: Loon/886 CFNetwork/3826.600.41 Darwin/24.6.0" -o Rewrite/Amap_remove_ads.js https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js || echo "Amap_remove_ads.js下载失败"
           curl -v -L -H "User-Agent: Loon/886 CFNetwork/3826.600.41 Darwin/24.6.0" -o Rewrite/Umetrip_remove_ads.js https://kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js || echo "Umetrip_remove_ads.js下载失败"
 
