@@ -43,7 +43,6 @@ DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,cp4.cloudflare.com
 
-
 # Gemini
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,deepmind.google
@@ -52,6 +51,7 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN,jules.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN,generativeai.google
+DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,proactivebackend-pa.googleapis.com
 
