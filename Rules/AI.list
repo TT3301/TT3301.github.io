@@ -1,3 +1,25 @@
+# Apple Intelligence
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,guzzoni.smoot.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,cp4.cloudflare.com
+
+# Gemini
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,jules.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN,generativeai.google
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+
 # ChatGPT & Claude
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,notebooklm.google
@@ -32,28 +54,6 @@ DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
-
-# Apple Intelligence
-DOMAIN,guzzoni.apple.com
-DOMAIN-SUFFIX,guzzoni.smoot.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,cp4.cloudflare.com
-
-# Gemini
-DOMAIN,ai.google.dev
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN,jules.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN,generativeai.google
-DOMAIN,daily-cloudcode-pa.googleapis.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
 
 # Stripe
 DOMAIN, api.stripe.com
