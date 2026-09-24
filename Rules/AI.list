@@ -9,16 +9,16 @@ DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,cp4.cloudflare.com
 
 # Gemini
-DOMAIN,ai.google.dev
+DOMAIN-WILDCARD,*cloudcode-pa.googleapis.com
+DOMAIN-WILDCARD,oauth?.googleapis.com
+DOMAIN-WILDCARD,gemini.*
+DOMAIN-KEYWORD,antigravity-unleash
+DOMAIN,googleusercontent.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
 DOMAIN,jules.google.com
-DOMAIN-SUFFIX,bard.google.com
 DOMAIN,generativeai.google
-DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
+
 
 # ChatGPT & Claude
 DOMAIN-SUFFIX,generativeai.google
