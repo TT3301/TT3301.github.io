@@ -9,13 +9,12 @@ DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,cp4.cloudflare.com
 
 # Gemini
-DOMAIN-WILDCARD,*cloudcode-pa.googleapis.com
-DOMAIN-WILDCARD,oauth?.googleapis.com
+DOMAIN-WILDCARD,*-pa.googleapis.com
+DOMAIN-WILDCARD,oauth*.googleapis.com
 DOMAIN-WILDCARD,gemini.*
 DOMAIN-KEYWORD,antigravity-unleash
 DOMAIN,googleusercontent.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN,jules.google.com
 DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 
