@@ -33,8 +33,8 @@ DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,jasper.ai
-DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,x.ai
+DOMAIN-KEYWORD,chatgpt.
 DOMAIN-KEYWORD,openai
 
 # Stripe
