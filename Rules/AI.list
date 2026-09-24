@@ -44,19 +44,6 @@ DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,cp4.cloudflare.com
 
-# Perplexity
-DOMAIN-SUFFIX,pplx.ai
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,perplexity.com
-
-# Copilot
-DOMAIN, api.githubcopilot.com
-DOMAIN, copilot-proxy.githubusercontent.com
-DOMAIN, copilot.microsoft.com
-DOMAIN, sydney.bing.com
-DOMAIN, www.bing.com
-DOMAIN, in.appcenter.ms
-DOMAIN-SUFFIX, bing.com
 
 # Gemini
 # DOMAIN,ai.google.dev
@@ -85,23 +72,3 @@ DOMAIN-SUFFIX, hcaptcha.com
 # Meta AI
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,meta.ai
-
-# Mistral AI
-DOMAIN,chat.mistral.ai
-DOMAIN,console.mistral.ai
-DOMAIN-SUFFIX,mistral.ai
-
-# talkatone
-DOMAIN-SUFFIX,mobilefuse.com
-DOMAIN-SUFFIX,inmobi.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,talkatone.com
-DOMAIN-SUFFIX,kochava.com
-DOMAIN-SUFFIX,tktn.be
-DOMAIN-SUFFIX,cohere.com
-DOMAIN-SUFFIX,agkn.com
-DOMAIN-SUFFIX,tktn.at
-IP-CIDR,50.117.27.0/24, no-resolve
-IP-CIDR,69.46.75.0/24, no-resolve
-IP-CIDR,205.164.56.0/24, no-resolve
-IP-CIDR,63.251.124.0/24, no-resolve
