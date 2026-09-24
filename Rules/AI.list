@@ -39,8 +39,6 @@ DOMAIN-KEYWORD,openai
 
 # Stripe
 DOMAIN, api.stripe.com
-DOMAIN, m.stripe.com
-DOMAIN, q.stripe.com
 DOMAIN, app.link.com
 DOMAIN, api.company-target.com
 DOMAIN-SUFFIX, stripe.com
