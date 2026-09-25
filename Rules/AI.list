@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 
-
 # OpenAI / Claude / Other AI
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -37,6 +36,14 @@ DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,chatgpt.
 DOMAIN-KEYWORD,openai
 
+# Meta AI
+# DOMAIN-WILDCARD,accountscenter.meta.com
+DOMAIN,hatch.metaaivm.com
+DOMAIN,imagine.meta.com
+DOMAIN,meta.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN,ai.immersivetranslate.com
+
 # Stripe
 DOMAIN, api.stripe.com
 DOMAIN, app.link.com
@@ -48,10 +55,6 @@ DOMAIN-SUFFIX, stripe.network
 DOMAIN-SUFFIX, zi-scripts.com
 DOMAIN-SUFFIX, hcaptcha.com
 
-# Meta AI
-# DOMAIN-WILDCARD,accountscenter.meta.com
-DOMAIN,imagine.meta.com
-DOMAIN-SUFFIX,meta.ai
-DOMAIN,hatch.metaaivm.com
+
 
 
