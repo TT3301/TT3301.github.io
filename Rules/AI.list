@@ -49,5 +49,9 @@ DOMAIN-SUFFIX, zi-scripts.com
 DOMAIN-SUFFIX, hcaptcha.com
 
 # Meta AI
+# DOMAIN-WILDCARD,accountscenter.meta.com
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,meta.ai
+DOMAIN,hatch.metaaivm.com
+
+
