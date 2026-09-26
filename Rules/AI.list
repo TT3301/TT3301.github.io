@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,lh3.googleusercontent.com
+DOMAIN,www.googleapis.com
 
 # OpenAI / Claude / Other AI
 DOMAIN,gateway.ai.cloudflare.com
