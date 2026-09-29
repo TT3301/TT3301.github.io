@@ -22,6 +22,7 @@ DOMAIN,googleusercontent.com
 DOMAIN-SUFFIX,deepmind.google
 
 # OpenAI / Claude / Other AI
+DOMAIN,api.revenuecat.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,anthropic.com
