@@ -44,6 +44,7 @@ jobs:
           curl -f -o Rewrite/sms-forward.js https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js || echo "sms-forward.js下载失败"
           curl -f -o Rewrite/wloc.js https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc.js || echo "wloc.js下载失败"
           curl -f -o Rewrite/wloc-settings.js https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/dist/wloc-settings.js || echo "wloc-settings.js下载失败"
+          curl -f -o Rewrite/lhtj.js https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js || echo "lhtj.js下载失败"
           curl -f -x "${{ secrets.SOCKS_PROXY }}" -L -H "User-Agent: Loon/886 CFNetwork/3826.600.41 Darwin/24.6.0" -o Rewrite/Amap_remove_ads.js https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js || echo "Amap_remove_ads.js下载失败"
           curl -f -v -L -H "User-Agent: Loon/886 CFNetwork/3826.600.41 Darwin/24.6.0" -o Rewrite/Umetrip_remove_ads.js https://kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js || echo "Umetrip_remove_ads.js下载失败"
 
