@@ -46,6 +46,7 @@ DOMAIN-KEYWORD,openai
 DOMAIN,hatch.metaaivm.com
 DOMAIN,imagine.meta.com
 DOMAIN,meta.ai
+DOMAIN,auth.meta.com:
 DOMAIN-SUFFIX,meta.ai
 DOMAIN,ai.immersivetranslate.com
 
