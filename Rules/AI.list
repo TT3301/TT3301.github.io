@@ -9,6 +9,7 @@ DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,cp4.cloudflare.com
 
 # Gemini
+DOMAIN,www.gstatic.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
