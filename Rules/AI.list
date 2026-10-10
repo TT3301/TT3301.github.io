@@ -14,12 +14,13 @@ DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
+DOMAIN,googleusercontent.com
+DOMAIN-SUFFIX,deepmind.google
 DOMAIN-WILDCARD,*-pa.googleapis.com
 DOMAIN-WILDCARD,oauth*.googleapis.com
 DOMAIN-WILDCARD,gemini.*
 DOMAIN-KEYWORD,antigravity-unleash
-DOMAIN,googleusercontent.com
-DOMAIN-SUFFIX,deepmind.google
+DOMAIN-KEYWORD,antigravity-cli
 
 # OpenAI / Claude / Other AI
 DOMAIN,api.revenuecat.com
