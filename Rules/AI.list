@@ -13,6 +13,7 @@ DOMAIN,lh3.googleusercontent.com
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,generativeai.google
+DOMAIN,safebrowsing.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,deepmind.google
