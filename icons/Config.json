@@ -162,8 +162,16 @@
             "url": "https://haohao.one/icons/bing.png"
         },
         {
+            "name": "ChatGPT",
+            "url": "https://haohao.one/icons/ChatGPT.png"
+        },
+        {
             "name": "ChatGPT01",
             "url": "https://haohao.one/icons/ChatGPT_01.png"
+        },
+        {
+            "name": "ChatGPT02",
+            "url": "https://haohao.one/icons/ChatGPT_02.png"
         },
         {
             "name": "微博",
@@ -212,10 +220,6 @@
         {
             "name": "WeChat_03",
             "url": "https://haohao.one/icons/WeChat_03.png"
-        },
-        {
-            "name": "chat",
-            "url": "https://haohao.one/icons/chat.png"
         },
         {
             "name": "chat01",
