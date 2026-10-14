@@ -398,6 +398,10 @@
             "url": "https://haohao.one/icons/HK.png"
         },
         {
+            "name": "香港02",
+            "url": "https://haohao.one/icons/HK02.png"
+        },
+        {
             "name": "日本",
             "url": "https://haohao.one/icons/JP.png"
         },
@@ -424,6 +428,10 @@
         {
             "name": "美国",
             "url": "https://haohao.one/icons/US.png"
+        },
+        {
+            "name": "美国02",
+            "url": "https://haohao.one/icons/US02.png"
         },
         {
             "name": "澳门",
