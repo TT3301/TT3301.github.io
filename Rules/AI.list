@@ -30,6 +30,10 @@ DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,
+DOMAIN-SUFFIX,
+DOMAIN-SUFFIX,
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,groq.com
@@ -50,8 +54,7 @@ DOMAIN,hatch.metaaivm.com
 DOMAIN,imagine.meta.com
 DOMAIN,meta.ai
 DOMAIN,auth.meta.com:
-DOMAIN-SUFFIX,meta.ai
-DOMAIN,ai.immersivetranslate.com
+DOMAIN-SUFFIX,immersivetranslate.com
 
 # Stripe
 DOMAIN, api.stripe.com
