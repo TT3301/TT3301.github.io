@@ -31,9 +31,8 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,
-DOMAIN-SUFFIX,
-DOMAIN-SUFFIX,
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,groq.com
@@ -47,6 +46,7 @@ DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,chatgpt.
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
+DOMAIN-WILDCARD,*datadoghq.com
 
 # Meta AI
 # DOMAIN-WILDCARD,accountscenter.meta.com
