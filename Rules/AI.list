@@ -25,6 +25,7 @@ DOMAIN-KEYWORD,antigravity-unleash
 DOMAIN-KEYWORD,antigravity-cli
 
 # OpenAI / Claude / Other AI
+USER-AGENT,Claude/*
 DOMAIN,api.revenuecat.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,oaistatic.com
