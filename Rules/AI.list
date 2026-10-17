@@ -49,6 +49,7 @@ DOMAIN-KEYWORD,chatgpt.
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-WILDCARD,*datadoghq.com
+DOMAIN-KEYWORD,datadog
 
 # Meta AI
 # DOMAIN-WILDCARD,accountscenter.meta.com
