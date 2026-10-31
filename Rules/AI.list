@@ -10,7 +10,6 @@ DOMAIN,cp4.cloudflare.com
 
 # Gemini
 DOMAIN,accounts.google.com
-DOMAIN,lh3.googleusercontent.com
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,generativeai.google
@@ -24,53 +23,46 @@ DOMAIN-WILDCARD,gemini.*
 DOMAIN-KEYWORD,antigravity-unleash
 DOMAIN-KEYWORD,antigravity-cli
 
-# OpenAI / Claude / Other AI
+# Claude
 USER-AGENT,Claude/*
+DOMAIN,cdn.usefathom.com
+DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,intercom
+DOMAIN-WILDCARD,*datadoghq.com
+DOMAIN-KEYWORD,datadog
+
+
+# OpenAI / Other AI
 DOMAIN,api.revenuecat.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,clipdrop.co
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,x.ai
-DOMAIN-KEYWORD,chatgpt.
+DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,anthropic
-DOMAIN-WILDCARD,*datadoghq.com
-DOMAIN-KEYWORD,datadog
 
 # Meta AI
 # DOMAIN-WILDCARD,accountscenter.meta.com
 DOMAIN,hatch.metaaivm.com
 DOMAIN,imagine.meta.com
 DOMAIN,meta.ai
-DOMAIN,auth.meta.com:
+DOMAIN,auth.meta.com
 DOMAIN-SUFFIX,immersivetranslate.com
 
 # Stripe
-DOMAIN, api.stripe.com
-DOMAIN, app.link.com
 DOMAIN, api.company-target.com
-DOMAIN-SUFFIX, stripe.com
-DOMAIN-SUFFIX, stripecdn.com
 DOMAIN-SUFFIX, link.com
-DOMAIN-SUFFIX, stripe.network
-DOMAIN-SUFFIX, zi-scripts.com
-DOMAIN-SUFFIX, hcaptcha.com
-
+DOMAIN-KEYWORD,stripe
 
 
 
