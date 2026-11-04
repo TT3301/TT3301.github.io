@@ -14,13 +14,8 @@ jobs:
   update-files:
     runs-on: ubuntu-latest
     steps:
-      - name: 设置 Node.js 20 环境
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
       - name: 检出代码仓库
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: QX解析器 & Task脚本
         run: |
