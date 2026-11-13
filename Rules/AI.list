@@ -20,8 +20,8 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-WILDCARD,*-pa.googleapis.com
 DOMAIN-WILDCARD,oauth*.googleapis.com
 DOMAIN-WILDCARD,gemini.*
-DOMAIN-KEYWORD,antigravity-unleash
-DOMAIN-KEYWORD,antigravity-cli
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,antigravity
 
 # Claude
 USER-AGENT,Claude/*
