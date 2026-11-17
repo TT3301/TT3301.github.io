@@ -1,5 +1,3 @@
-OR,((PROCESS-NAME,*ChatGPT*), (PROCESS-NAME,*Claude*), (PROCESS-NAME,*Antigravity*)) #!MACOS-ONLY
-
 # Apple Intelligence
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,guzzoni.smoot.apple.com
@@ -65,5 +63,6 @@ DOMAIN, api.company-target.com
 DOMAIN-SUFFIX, link.com
 DOMAIN-KEYWORD,stripe
 
+OR,((PROCESS-NAME,*ChatGPT*), (PROCESS-NAME,*codex*),(PROCESS-NAME,*Claude*), (PROCESS-NAME,*Antigravity*)) #!MACOS-ONLY
 
 
