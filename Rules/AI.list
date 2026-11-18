@@ -11,6 +11,7 @@ DOMAIN-KEYWORD,apple-relay
 
 # Gemini
 DOMAIN,accounts.google.com
+DOMAIN,aicode.googleapis.com
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,generativeai.google
